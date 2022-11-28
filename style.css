@@ -1,0 +1,39 @@
+.text {
+    display: flex;
+    justify-content: center;
+}
+
+.calc0 {
+    display: flex;
+    justify-content: center;
+}
+.calc1 {
+    display: flex;
+    justify-content: center;
+}
+.calc2 {
+    display: flex;
+    justify-content: center;
+}
+.calc3 {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+  color: black;
+  font-weight: 700;
+  border: 2px solid;
+  border-radius: 1px;
+  transition: 0.2s;
+  margin: 5px;
+  padding: 20px;
+}
+button:not(.active) {
+  background-image: linear-gradient(#7bb7d1, #9583aa);
+  text-shadow: 0 0 21px rgba(223, 206, 228, 0.5), 0 -1px 0 #311d47;
+}
+
+button:not(.active):focus {
+    background-image: linear-gradient(#4a8ec1, #7cc4ea);
+}
